@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>랜덤 숫자 뽑기</title>
+</head>
+<body>
+    <header>
+        <h1>랜덤 숫자 뽑기</h1>
+    </header>
+    <main>
+        <div class="remainingNumbers js-remainingNumbers">남은 숫자:</div>
+        <form class="pickerForm js-pickerForm">
+            <div>
+                <input type="number" class="js-startNumberInput">
+                부터 
+                <input type="number" class="js-endNumberInput">
+                까지
+            </div>
+            <button>뽑기</button>
+        </form>
+        <div class="pickedNumber js-pickedNumber">?</div>
+    </main>
+    <footer>
+        <p>2021 RANDOM PICKER - KOB</p>
+    </footer>
+    <script src="main.js"></script>
+</body>
+</html>
