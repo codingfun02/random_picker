@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/media-query.css">
     <title>랜덤 숫자 뽑기</title>
 </head>
 <body>
@@ -12,7 +13,8 @@
         <h1>랜덤 숫자 뽑기</h1>
     </header>
     <main>
-        <div class="remainingNumbers js-remainingNumbers">남은 숫자:</div>
+        <span class="small-text">스크롤 하세요</span>
+        <div type="text" class="remainingNumbers js-remainingNumbers">남은 숫자:</div>
         <form class="pickerForm js-pickerForm">
             <div>
                 <input type="number" class="js-startNumberInput">
@@ -22,6 +24,7 @@
             </div>
             <button>뽑기</button>
         </form>
+        <button class="resetPicker js-resetPicker" onclick="window.location.reload()">초기화</button>
         <div class="pickedNumber js-pickedNumber">?</div>
     </main>
     <footer>
