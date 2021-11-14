@@ -1,27 +1,26 @@
 @media (min-width: 320px) and (max-width: 480px) {
-    main * {
-        font-size: 23px !important;
-    }
+  main * {
+    font-size: 23px !important;
+  }
 
-    .pickerForm input {
-        width: 100px;
-        height: 40px;
-    }
+  .pickerForm input {
+    width: 85px;
+    height: 40px;
+  }
 
-    .pickerForm button,
-    .resetPicker {
-        height: 50px;
-    }
+  .pickerForm button,
+  .resetPicker {
+    height: 50px;
+  }
 
-    .remainingNumbers {
-        width: 80%;
-    }
+  .remainingNumbers {
+    width: 80%;
+  }
 
-    .pickedNumber {
-        width: auto;
-        height: 100px;
-        padding: 20px;
-        margin-top: 20px;
-        font-size: 70px !important;
-    }
+  .pickedNumber {
+    width: auto;
+    height: 100px;
+    padding: 20px;
+    font-size: 70px !important;
+  }
 }
